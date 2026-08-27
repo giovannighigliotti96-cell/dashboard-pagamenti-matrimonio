@@ -128,7 +128,7 @@ export const expenses = [
         nome: "Acconto",
         importo: 800,
         scadenza: "2026-10-15",
-        pagato: false,
+        pagato: true,
         note: "Acconto di 800€ già comprensivo di IVA",
         dettaglioPagamento: { silvia: 400, fabioEsther: 400 },
       },
