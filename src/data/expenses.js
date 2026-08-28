@@ -135,9 +135,9 @@ export const expenses = [
       {
         nome: "Saldo",
         importo: 3250,
-        scadenza: "2027-06-15",
+        scadenza: "2027-06-10",
         pagato: false,
-        note: "Saldo finale - Quota di 3.250€ non soggetta ad IVA",
+        note: "Saldo finale (30gg prima del 10 luglio 2027) - Quota di 3.250€ non soggetta ad IVA",
         dettaglioPagamento: { silvia: 1625, fabioEsther: 1625 },
       },
     ],
