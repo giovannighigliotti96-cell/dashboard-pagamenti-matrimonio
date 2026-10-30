@@ -142,6 +142,31 @@ export const expenses = [
       },
     ],
   },
+  {
+    id: "beverage",
+    fornitore: "Davide Puppo",
+    categoria: "Beverage del Venerdì",
+    colore: "#2DD4BF",
+    totale: 1600,
+    rate: [
+      {
+        nome: "Acconto 30%",
+        importo: 480,
+        scadenza: "2027-02-28",
+        pagato: false,
+        note: "Acconto 30% a febbraio 2027 (giorno esatto da definire)",
+        dettaglioPagamento: { silvia: 240, fabioEsther: 240 },
+      },
+      {
+        nome: "Saldo",
+        importo: 1120,
+        scadenza: "2027-07-02",
+        pagato: false,
+        note: "Saldo 1 settimana prima del 9 luglio 2027",
+        dettaglioPagamento: { silvia: 560, fabioEsther: 560 },
+      },
+    ],
+  },
 ];
 
 export const famiglie = {
